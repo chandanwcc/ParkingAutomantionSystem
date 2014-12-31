@@ -1,0 +1,40 @@
+<web-app>
+
+	<servlet>
+		<servlet-name>RegistrationServlet1</servlet-name>
+		<servlet-class>RegistrationServlet1</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>RegistrationServlet1</servlet-name>
+		<url-pattern>/RegistrationServlet1</url-pattern>
+	</servlet-mapping>
+	
+
+	
+	
+	<servlet>
+		<servlet-name>ReleaseServlet</servlet-name>
+		<servlet-class>ReleaseServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ReleaseServlet</servlet-name>
+		<url-pattern>/ReleaseServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+	<servlet>
+		<servlet-name>DispServlet</servlet-name>
+		<servlet-class>DispServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DispServlet</servlet-name>
+		<url-pattern>/DispServlet</url-pattern>
+	</servlet-mapping>
+	
+	<welcome-file-list>
+		<welcome-file>login.html</welcome-file>
+	</welcome-file-list >
+
+</web-app>

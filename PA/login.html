@@ -1,0 +1,62 @@
+<html>
+
+	<head>
+	</head>
+<body>
+
+<center><h2>Welcome to Parking Automantion System</h2></center>
+<br/>
+<br/>
+<center>
+<h2><u>Slot allocation for user</u></h2> 
+<form action="RegistrationServlet1">
+	 
+
+<pre>	
+	Vechile no: <input type="text" name="t1"/><br/>
+					
+	 Owner name:  <input type="text" name="t2"/><br/>
+
+	 floorid: <input type="text" name="t3"/><br/>
+					
+	   slotid:  <input type="text" name="t4"/><br/>
+
+	<input type="submit" value="Allocate"/>
+</pre>
+
+</form>
+
+
+<h2><u>Releasing Slot </u></h2>
+
+<form action="ReleaseServlet">
+	 
+
+<pre>	
+	Vechile no: <input type="text" name="vn"/><br/>
+
+	<input type="submit" value="Release"/>
+</pre>
+
+</form>
+
+
+<h2><u>Click to visit no of free slot avalable </u></h2>
+
+<form action="DispServlet">
+	 
+
+<pre>	
+	<input type="hidden" name="t4">
+	<input type="submit" value="Free slot"/>
+</pre>
+
+</form>
+
+
+		
+</center>
+
+</body>
+
+</html>
